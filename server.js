@@ -5,8 +5,6 @@ const passport = require("passport");
 
 const app = express();
 
-// import routes
-const routes = require("./routes");
 
 // set up PORT
 const PORT = process.env.PORT || 8080;
@@ -27,7 +25,13 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
+const exhbs = require('express-handlebars');
+app.engine("handlebars", exhbs({defaultLayout: "main"}))
+app.set("view engine", "handlebars")
+
 // use routes
+// import routes
+const routes = require("./routes");
 app.use(routes);
 
 // connect to database and start server
