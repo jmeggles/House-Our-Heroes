@@ -90,7 +90,7 @@ router.post("/login", (req, res, next) => {
       if (err) {
         next(err);
       }
-      res.redirect("/")
+      res.redirect("/auth/comments")
       // return res.json(user);
     });
   })(req, res, next);

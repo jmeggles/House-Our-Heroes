@@ -30,7 +30,7 @@ router.get("/user/resources", async (req, res) => {
 })
 
 router.get("/auth/comments", async (req, res) => {
-    res.render("pages/login")
+    res.render("pages/comments")
 })
 
 router.get("/user/news", async (req, res) => {
