@@ -21,6 +21,21 @@ router.get("/profile", auth, async (req, res) => {
     res.render("pages/profile")
 })
 
+router.get("/user/petitions",async (req, res) => {
+    res.render("pages/petition")
+})
+
+router.get("/user/resources", async (req, res) => {
+    res.render("pages/resources")
+})
+
+router.get("/user/comments", auth, async (req, res) => {
+    res.render("pages/comments")
+})
+
+router.get("/user/news", async (req, res) => {
+    res.render("pages/news")
+})
 
 // used handlebars to directly route user instead of through unnecessary re-routes.
 // router.get("/", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/dashboard.html")));
