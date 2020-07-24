@@ -21,16 +21,16 @@ router.get("/profile", auth, async (req, res) => {
     res.render("pages/profile")
 })
 
-router.get("/user/petitions",async (req, res) => {
-    res.render("pages/petition")
+router.get("/auth/petitions",async (req, res) => {
+    res.render("pages/petitions")
 })
 
 router.get("/user/resources", async (req, res) => {
     res.render("pages/resources")
 })
 
-router.get("/user/comments", auth, async (req, res) => {
-    res.render("pages/comments")
+router.get("/auth/comments", async (req, res) => {
+    res.render("pages/login")
 })
 
 router.get("/user/news", async (req, res) => {
