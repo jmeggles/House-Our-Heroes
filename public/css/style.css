@@ -1,16 +1,8 @@
-/* bootstrap background id name */
-/* #hc_extension_bkgnd {
-
-} */
-/* 
-
-/* image to use, still needs fixing */
-#dash-hero {
+#dash-image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/assets/images/gloved-hand.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 } 
