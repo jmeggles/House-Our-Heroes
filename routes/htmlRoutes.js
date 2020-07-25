@@ -16,10 +16,6 @@ router.get("/user/login", (req, res) => {
     })
 })
 
-router.get("/login", (req, res) => {
-    res.render("pages/profile")
-})
-
 router.get("/logout", (req, res) => {
     req.logout();
     req.session.destroy();
@@ -46,15 +42,11 @@ router.get("/user/news", async (req, res) => {
     res.render("pages/news")
 })
 
-router.get("/user/profile", auth, async (req, res) => {
-    res.render("pages/profile")
-})
-
-router.get("/user/blog", auth, async (req, res) => {
+router.get("/user/blog", async (req, res) => {
     res.render("pages/blog")
 })
 
-router.get("/user/cms", auth, async (req, res) => {
+router.get("pages/cms", auth, async (req, res) => {
     res.render("pages/cms")
 })
 // used handlebars to directly route user instead of through unnecessary re-routes.
@@ -62,23 +54,26 @@ router.get("/user/cms", auth, async (req, res) => {
 // router.get("/user/page2", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/page2.html")));
 // router.get("/user/profile", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/profile.html")));
 
-    // Each of the below routes just handles the HTML page that the user gets sent to.
   
-//     // index route loads view.html
-//     router.get("/", function(req, res) {
-//       res.sendFile(path.join(__dirname, "../public/blog.html"));
-//     });
-  
-//     router.get("/cms", function(req, res) {
-//       res.sendFile(path.join(__dirname, "../public/cms.html"));
-//     });
-  
-//     // blog route loads blog.html
-//    router.get("/blog", function(req, res) {
-//       res.sendFile(path.join(__dirname, "../public/blog.html"));
-//     });
-  
-  
+  module.exports = function(app) {
+
+  // Each of the below routes just handles the HTML page that the user gets sent to.
+
+  // index route loads view.html
+  app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/blog.html"));
+  });
+
+  app.get("/cms", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/cms.html"));
+  });
+
+  // blog route loads blog.html
+  app.get("/blog", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/blog.html"));
+  });
+
+};
 // // login and register forms view
 // router.get("/user/login", (req, res) => res.sendFile(path.join(__dirname, "../public/login.html")));
 // router.get("/user/register", (req, res) => res.sendFile(path.join(__dirname, "../public/register.html")));
