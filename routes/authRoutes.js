@@ -90,7 +90,7 @@ router.post("/login", (req, res, next) => {
       if (err) {
         next(err);
       }
-      res.redirect("/auth/comments")
+      res.redirect("views/pages/dashboard")
       // return res.json(user);
     });
   })(req, res, next);
@@ -111,6 +111,7 @@ router.get("/user", auth, async (req, res) => {
     }
   }
 });
+
 // Route: /auth/logout
 router.get("/logout", (req, res) => {
   // Log out user

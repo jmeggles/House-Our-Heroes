@@ -4,7 +4,12 @@ const session = require("express-session");
 const passport = require("passport");
 
 const app = express();
-
+////////////// global isAthenticated function for showing pages that are public or pri
+app.use(function(req, res, next){
+  res.locals.isAuthenticated = req.
+    isAuthenticated();
+    next();
+});
 
 // set up PORT
 const PORT = process.env.PORT || 8080;
