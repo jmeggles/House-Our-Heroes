@@ -16,9 +16,9 @@
   - [Contribute](#Contribute)
 
  ## Links
-  - *[Heroku Deployed](https://house-our-heroes.herokuapp.com/)
-  - *[GitHub Pages](https://jmeggles.github.io/House-Our-Heroes/)
-  - *[GitHub Repo](https://github.com/jmeggles/House-Our-Heroes)
+  - [Heroku Deployed](https://house-our-heroes.herokuapp.com/)
+  - [GitHub Pages](https://jmeggles.github.io/House-Our-Heroes/)
+  - [GitHub Repo](https://github.com/jmeggles/House-Our-Heroes)
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed project](https://media.giphy.com/media)
@@ -49,10 +49,10 @@
 
   ## Colaborators
   The Heroku*Heroes* team:
-    - Jody Eggleston *[GitHub](https://github.com/jmeggles)
-    - Richenda  *[GitHub](https://github.com/rrtrenchf)
-    - Karleigh Ponnock *[GitHub](https://github.com/karleighponnock)
-    - Derek D'Esposito *[GitHub](https://github.com/Derekdespo)
+  - Jody Eggleston *[GitHub](https://github.com/jmeggles)
+  - Richenda  *[GitHub](https://github.com/rrtrenchf)
+  - Karleigh Ponnock *[GitHub](https://github.com/karleighponnock)
+  - Derek D'Esposito *[GitHub](https://github.com/Derekdespo)
 
   ## Tests
  
