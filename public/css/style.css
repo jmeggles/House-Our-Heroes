@@ -13,8 +13,7 @@
     margin-top: 20px;
     
 }
-.capitolHill{
+#carousel-img1, #carousel-img2, #carousel-img3{
     height: 600px;
-    width: 1000px;
-    
+    width: 100%;
 }
