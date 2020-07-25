@@ -7,13 +7,13 @@ router.get("/", async (req, res) => {
     res.render("pages/dashboard")
 })
 
-router.get("/login", (req, res) => {
+router.get("/user/login", (req, res) => {
     res.render("pages/login", {
         message: req.query.message
     })
 })
 
-router.get("/register", (req, res) => {
+router.get("/user/register", (req, res) => {
     res.render("pages/register")
 })
 
@@ -30,13 +30,16 @@ router.get("/user/resources", async (req, res) => {
 })
 
 router.get("/auth/comments", async (req, res) => {
-    res.render("pages/login")
+    res.render("pages/comments")
 })
 
 router.get("/user/news", async (req, res) => {
     res.render("pages/news")
 })
 
+router.get("/user/profile", auth, async (req, res) => {
+    res.render("pages/profile")
+})
 // used handlebars to directly route user instead of through unnecessary re-routes.
 // router.get("/", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/dashboard.html")));
 // router.get("/user/page2", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/page2.html")));
