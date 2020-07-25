@@ -20,6 +20,12 @@ router.get("/login", (req, res) => {
     res.render("pages/profile")
 })
 
+router.get("/logout", (req, res) => {
+    req.logout();
+    req.session.destroy();
+    res.redirect("/");
+})
+
 router.get("/user/register", (req, res) => {
     res.render("pages/register")
 })
