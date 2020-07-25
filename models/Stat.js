@@ -2,9 +2,8 @@
 module.exports = function (sequelize, DataTypes) {
     var Stat = sequelize.define("Stat", {
       date: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true
+        type: DataTypes.DATE,
+        
       },
       state: {
         type: DataTypes.STRING
@@ -42,15 +41,11 @@ module.exports = function (sequelize, DataTypes) {
       dataQualityGrade: {
         type: DataTypes.STRING
       },
-      lastUpdateEt: {
-        type: DataTypes.TIMESTAMP
-      },
+      
       dateModified: {
-        type: DataTypes.TIMESTAMP
+        type: DataTypes.DATE
       },
-      checkTimeEt: {
-        type: DataTypes.TIMESTAMP
-      },
+     
       death: {
         type: DataTypes.INTEGER
       },
@@ -58,7 +53,7 @@ module.exports = function (sequelize, DataTypes) {
         type: DataTypes.INTEGER
       },
       dateChecked: {
-        type: DataTypes.TIMESTAMP
+        type: DataTypes.DATE
       },
       totalTestsViral: {
         type: DataTypes.INTEGER
