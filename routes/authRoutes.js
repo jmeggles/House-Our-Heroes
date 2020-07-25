@@ -90,7 +90,7 @@ router.post("/login", (req, res, next) => {
       if (err) {
         next(err);
       }
-      res.redirect("/auth/blog")
+      res.redirect("views/pages/dashboard.handlebars")
       // return res.json(user);
     });
   })(req, res, next);
