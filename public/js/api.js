@@ -1,6 +1,6 @@
 //Prorepublica bill search for coronavirus
 $(function () {
-    $("button").on("click", function (event) {
+    $("#billBtn").on("click", function (event) {
         event.preventDefault();
         console.log("click")
 
