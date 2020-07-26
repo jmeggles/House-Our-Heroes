@@ -18,23 +18,31 @@
     width: 100%;
 }
 
+#caption1 {
+  color: white;
+}
 
+#caption2 {
+  color: #b22222
+}
+
+#caption3 {
+  color: grey;
+}
 
 button.submit {
-    float: right;
-  }
+  float: right;
+}
   
-  form#cms {
-    margin-top: 50px;
-  }
-  
-  #cms textarea {
-    resize: none;
-  }
-  
-  .card-header button.delete,
-  button.edit {
-    float: right;
-    margin: 5px;
-  }
-  
+form#cms {
+  margin-top: 50px;
+}
+
+#cms textarea {
+  resize: none;
+}
+
+.card-header button.delete, button.edit {
+  float: right;
+  margin: 5px;
+}
