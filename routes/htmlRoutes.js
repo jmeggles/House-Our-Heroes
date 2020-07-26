@@ -46,7 +46,7 @@ router.get("/user/blog", async (req, res) => {
     res.render("pages/blog")
 })
 
-router.get("/user/cms",  async (req, res) => {
+router.get("/user/cms", auth, async (req, res) => {
     res.render("pages/cms")
 })
 // used handlebars to directly route user instead of through unnecessary re-routes.

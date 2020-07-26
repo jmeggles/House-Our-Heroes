@@ -30,7 +30,7 @@ const handleSubmit = async (e) => {
     rowAlert.prepend(divAlert);
   } else {
     // redirect to Main page (Authorize)
-    window.location.href = "/";
+    window.location.href = "/user/blog";
   }
 };
 // Click event to submit the form
