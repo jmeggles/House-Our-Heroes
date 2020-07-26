@@ -22,7 +22,7 @@ $(function () {
                 summary = response.results[0].bills[i].summary
                 console.log(title)
                 // console.log(summary)
-                titleResult = $('#"searchResults').text(title)
+                titleResult = $('.result').text(title)
 
 
             }
