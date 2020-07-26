@@ -13,6 +13,7 @@ $(function () {
             dataType: "json",
             headers: { 'X-API-Key': 'D4baiyH8PfzjJXFGBVMa5eWkcf6CtQwOIexmhBkm' }
         }).then(function (response) {
+            // console.log(response)
 
 
             // const billArray = []
@@ -23,12 +24,14 @@ $(function () {
               
                 // create a child container and set the text
                 var newDiv = $("<div>");
-                newDiv.text(title)
+                newDiv.text("* " +title)
               
                 // append this new child container to the parent container
-                $(".result").append(newDiv)
+                $(".result").prepend(newDiv)
               
               }
+            // console.log(title)
+            
             
             
 
