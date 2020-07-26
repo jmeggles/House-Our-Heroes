@@ -2,6 +2,7 @@
 $(function () {
     $("button").on("click", function (event) {
         event.preventDefault();
+        console.log("click")
 
         var billSearch = $("#billSearch").val()
         console.log(billSearch)
@@ -20,10 +21,12 @@ $(function () {
                 title = response.results[0].bills[i].title
                 summary = response.results[0].bills[i].summary
                 console.log(title)
-                console.log(summary)
+                // console.log(summary)
+                titleResult = $('#"searchResults').text(title)
 
 
             }
+            
 
 
         })
