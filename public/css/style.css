@@ -45,5 +45,20 @@ form#cms {
 .card-header button.delete, button.edit {
   float: right;
   margin: 5px;
+
+
+
+  box-sizing: border-box;
+}
+/* Set additional styling options for the columns*/
+.column {
+float: left;
+width: 50%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
 }
 

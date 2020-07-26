@@ -7,7 +7,6 @@ const auth = require("../middleware/auth");
 // All routes start with: /auth
 // Route: /auth/register
 router.post("/register", async (req, res) => {
-
   try {
     const { email, password, passwordTwo } = req.body;
     // check if there are any empty fields
@@ -29,7 +28,6 @@ router.post("/register", async (req, res) => {
     }
     // check database for a user with the email entered in the form
     const user = await db.User.findOne({ where: { email: email } });
-
     if (user) {
       // if user already in database, send error
       res.status(400).json({ message: "User already Registered. Please, LogIn" });
