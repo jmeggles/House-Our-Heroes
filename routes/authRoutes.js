@@ -90,7 +90,7 @@ router.post("/login", (req, res, next) => {
       if (err) {
         next(err);
       }
-      res.redirect("views/pages/dashboard")
+      return res.json(user);
       // return res.json(user);
     });
   })(req, res, next);
