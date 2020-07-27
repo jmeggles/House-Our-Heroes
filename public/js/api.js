@@ -1,6 +1,6 @@
 //Prorepublica bill search for coronavirus
 $(function () {
-    $("button").on("click", function (event) {
+    $("#billBtn").on("click", function (event) {
         event.preventDefault();
         console.log("click")
 
@@ -13,19 +13,29 @@ $(function () {
             dataType: "json",
             headers: { 'X-API-Key': 'D4baiyH8PfzjJXFGBVMa5eWkcf6CtQwOIexmhBkm' }
         }).then(function (response) {
+            console.log(response)
 
 
             // const billArray = []
             for (var i = 0; i < response.results[0].bills.length; i++) {
 
-                title = response.results[0].bills[i].title
-                summary = response.results[0].bills[i].summary
-                console.log(title)
-                // console.log(summary)
-                titleResult = $('.result').text(title)
-
-
-            }
+                // gather the response
+                var num = response.results[0].bills[i].number;
+                var title = response.results[0].bills[i].title;
+              
+                // create a child container and set the text
+                var newDiv = $("<div>");
+                newDiv.text("* " + num +" - "+ title)
+              
+                // append this new child container to the parent container
+                $(".result").prepend(newDiv)
+                
+              
+              }
+            // console.log(title)
+            
+            window.location("./resources")
+            
             
 
 
@@ -34,6 +44,13 @@ $(function () {
 
 });
 
+$(function () {
+    $("#dataBtn").on("click", function (event) {
+        event.preventDefault();
+        console.log("clickyclickyclicky")
+
+    })
+});
 
 
 
