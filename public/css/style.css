@@ -8,27 +8,54 @@
     z-index: 1;
 }  */
 
-
-.container{
-    margin-top: 20px;
-    
+/* //body background */
+body{
+background-color:rgb(12, 94, 141);
 }
+
+/* //navbar styling */
+
+/* //House our Heroes Logo */
+#nav-logo{
+  color: blue;
+font-family: 'Bebas Neue', cursive;
+font-size: 35px;
+}
+
+/* //individual link buttons */
+.nav-link {
+  font-family: 'Bebas Neue', cursive;
+  color: blue;
+  font-size: 20px;
+}
+/* //individual link buttons on hover interaction*/
+.nav-link:hover{
+  color:white;
+  background-color:rgba(12, 94, 141, 0.507);
+}
+
+/* //full navbar background */
+div.row.bg-custom{
+  background-color: rgb(43, 230, 255);
+}
+
+
+
+/* //carousel on dashboard  */
 #carousel-img1, #carousel-img2, #carousel-img3{
     height: 600px;
     width: 100%;
 }
 
-#caption1 {
-  color: white;
+/* all carousel captions */
+.caption {
+  color:  blue;
+  background-color: rgba(43, 230, 255, 0.651);
+ font-size: 20px;
+ font-family: 'Bebas Neue', cursive;
+ letter-spacing: 2px;
 }
 
-#caption2 {
-  color: #b22222
-}
-
-#caption3 {
-  color: grey;
-}
 
 button.submit {
   float: right;
