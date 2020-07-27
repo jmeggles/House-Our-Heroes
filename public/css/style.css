@@ -36,7 +36,10 @@ font-size: 35px;
 
 /* //full navbar background */
 div.row.bg-custom{
-  background-color: rgba(43, 230, 255, 0.788);
+  background-color: #63CDF6;
+  border-style: groove;
+  border-color: black;
+  border-radius: 10px;
 }
 
 #carousel-img2{
@@ -57,6 +60,9 @@ div.row.bg-custom{
  font-size: 20px;
  font-family: 'Bebas Neue', cursive;
  letter-spacing: 2px;
+ border-style: groove;
+  border-color: black;
+  border-radius: 10px;
 }
 
 .caption:hover{
