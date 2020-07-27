@@ -36,13 +36,16 @@ font-size: 35px;
 
 /* //full navbar background */
 div.row.bg-custom{
-  background-color: rgb(43, 230, 255);
+  background-color: rgba(43, 230, 255, 0.788);
 }
 
-
+#carousel-img2{
+  height: 100% ;
+ float: right;
+}
 
 /* //carousel on dashboard  */
-#carousel-img1, #carousel-img2, #carousel-img3{
+#carousel-img1, #carousel-img3{
     height: 600px;
     width: 100%;
 }
@@ -50,11 +53,25 @@ div.row.bg-custom{
 /* all carousel captions */
 .caption {
   color:  blue;
-  background-color: rgba(43, 230, 255, 0.651);
+  background-color: rgba(43, 230, 255, 0.521);
  font-size: 20px;
  font-family: 'Bebas Neue', cursive;
  letter-spacing: 2px;
 }
+
+.caption:hover{
+  background-color: rgba(12, 94, 141, 0.651);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
 
 
 button.submit {
@@ -77,6 +94,12 @@ form#cms {
 
   box-sizing: border-box;
 }
+
+
+
+
+
+
 /* Set additional styling options for the columns*/
 .column {
 float: left;
