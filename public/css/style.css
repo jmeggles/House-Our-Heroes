@@ -36,14 +36,8 @@ div.row.bg-custom{
 
 }
 
-/* //globe image */
-#carousel-img2{
-  height: 100% ;
- float: right;
-}
-
 /* //carousel on dashboard full spanning images  */
-#carousel-img1, #carousel-img3{
+#carousel-img1, #carousel-img2, #carousel-img3{
     height: 600px;
     width: 100%;
 }
