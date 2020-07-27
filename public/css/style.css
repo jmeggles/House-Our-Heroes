@@ -8,11 +8,6 @@
     z-index: 1;
 }  */
 
-/* //body background */
-body{
-background-image: hre;
-}
-
 /* //navbar styling */
 
 /* //House our Heroes Logo */
@@ -125,6 +120,17 @@ button.edit.btn:hover{
   border-style: groove;
   border-color: blue;
 }
+
+a{
+  color: #63CDF6;
+}
+
+a:hover{
+  color: white
+}
+
+
+
 
 
 button.submit {
