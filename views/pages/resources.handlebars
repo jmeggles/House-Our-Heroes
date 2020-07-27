@@ -1,85 +1,90 @@
 <center>
   <h1><i>Resources </i></h1>
 </center>
-<div class="row">
-  <div class="column" style="background-color:#FFB695;">
-    <h2>Column 1</h2>
-    <form class="form-inline">
-      <input  class="form-control mr-sm-2" type="search"
-        placeholder="Search" aria-label="Search">
-      <button id="billBtn" class="btn btn-outline-success my-2 my-sm-0"
-        type="submit">Search</button>
-    </form>
-  </div>
-  <div id="searchResults">
-    <div class="result"></div>
-  </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6">
+       <h2>Search for Laws in congress</h2>
+      <form class="form-inline">
+        <input id="billSearch"  class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="billBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form><br>
 
-  <div id="chosenResults"></div>
+      <div class="searchResults" id = "bill-container">
+        <div class="result"></div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+     
 
- <div class="column" style="background-color:#96D1CD;">
-            <h2>Column 2</h2>
-  <form>
-    <div class="form-inline">
-      <label for="exampleInputState">Data by State</label>
-      <select class="form-control">
-        <option>Alaska</option>
-        <option>Arizona</option>
-        <option>Arkansas</option>
-        <option>California</option>
-        <option>Colorado</option>
-        <option>Connecticut</option>
-        <option>Delaware</option>
-        <option>Florida</option>
-        <option>Georgia</option>
-        <option>Hawaii</option>
-        <option>Idaho</option>
-        <option>Illinois</option>
-        <option>Indiana</option>
-        <option>Iowa</option>
-        <option>Kansas</option>
-        <option>Kentucky</option>
-        <option>Louisiana</option>
-        <option>Maine</option>
-        <option>Maryland</option>
-        <option>Massachusetts</option>
-        <option>Michigan</option>
-        <option>Minnesota</option>
-        <option>Mississippi</option>
-        <option>Missouri</option>
-        <option>Montana</option>
-        <option>Nebraska</option>
-        <option>Nevada</option>
-        <option>New Hampshire</option>
-        <option>New Jersey</option>
-        <option>New Mexico</option>
-        <option>New York</option>
-        <option>North Carolina</option>
-        <option>North Dakota</option>
-        <option>Ohio</option>
-        <option>Oklahoma</option>
-        <option>Oregon</option>
-        <option>Pennsylvania</option>
-        <option>Rhode Island</option>
-        <option>South Carolina</option>
-        <option>South Dakota</option>
-        <option>Tennessee</option>
-        <option>Texas</option>
-        <option>Utah</option>
-        <option>Vermont</option>
-        <option>Virginia</option>
-        <option>Washington</option>
-        <option>West Virginia</option>
-        <option>Wisonsin</option>
-        <option>Wyoming</option>
-      </select>
+
+      <div class="column" id="data-container">
+        <h2>Column 2</h2>
+        <form>
+          <div class="form-inline">
+            <label for="exampleInputState">Data by State</label>
+            <select class="form-control">
+              <option>Alaska</option>
+              <option>Arizona</option>
+              <option>Arkansas</option>
+              <option>California</option>
+              <option>Colorado</option>
+              <option>Connecticut</option>
+              <option>Delaware</option>
+              <option>Florida</option>
+              <option>Georgia</option>
+              <option>Hawaii</option>
+              <option>Idaho</option>
+              <option>Illinois</option>
+              <option>Indiana</option>
+              <option>Iowa</option>
+              <option>Kansas</option>
+              <option>Kentucky</option>
+              <option>Louisiana</option>
+              <option>Maine</option>
+              <option>Maryland</option>
+              <option>Massachusetts</option>
+              <option>Michigan</option>
+              <option>Minnesota</option>
+              <option>Mississippi</option>
+              <option>Missouri</option>
+              <option>Montana</option>
+              <option>Nebraska</option>
+              <option>Nevada</option>
+              <option>New Hampshire</option>
+              <option>New Jersey</option>
+              <option>New Mexico</option>
+              <option>New York</option>
+              <option>North Carolina</option>
+              <option>North Dakota</option>
+              <option>Ohio</option>
+              <option>Oklahoma</option>
+              <option>Oregon</option>
+              <option>Pennsylvania</option>
+              <option>Rhode Island</option>
+              <option>South Carolina</option>
+              <option>South Dakota</option>
+              <option>Tennessee</option>
+              <option>Texas</option>
+              <option>Utah</option>
+              <option>Vermont</option>
+              <option>Virginia</option>
+              <option>Washington</option>
+              <option>West Virginia</option>
+              <option>Wisonsin</option>
+              <option>Wyoming</option>
+            </select>
+
+            <button id="dataBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="main-container">
+    <div class="column" id="bill-container">
+
+
     
-    <button id="dataBtn" class="btn btn-outline-success my-2 my-sm-0"
-        type="submit">Search</button>
-  </form>
-
-  </div>
-</div>
 
 
 
@@ -88,5 +93,5 @@
 
 
 
-<script type="text/javascript" src="/js/user.js"></script>
-<script type="text/javascript" src="/js/api.js"></script>
+  <script type="text/javascript" src="/js/user.js"></script>
+  <script type="text/javascript" src="/js/api.js"></script>
