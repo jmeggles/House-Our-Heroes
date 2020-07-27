@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-use-before-define */
 /* eslint-disable linebreak-style */
 $(document).ready(function() {
@@ -42,8 +43,7 @@ $(document).ready(function() {
     if (updating) {
       newPost.id = postId;
       updatePost(newPost);
-    }
-    else {
+    } else {
       submitPost(newPost);
     }
   });

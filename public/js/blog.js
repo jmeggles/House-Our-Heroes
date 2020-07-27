@@ -22,8 +22,7 @@ $(document).ready(function() {
       posts = data;
       if (!posts || !posts.length) {
         displayEmpty();
-      }
-      else {
+      } else {
         initializeRows();
       }
     });
