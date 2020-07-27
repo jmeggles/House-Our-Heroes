@@ -30,7 +30,7 @@ router.get("/profile", auth, async (req, res) => {
     res.render("pages/profile")
 })
 
-router.get("/auth/petitions",async (req, res) => {
+router.get("/auth/petitions", async (req, res) => {
     res.render("pages/petitions")
 })
 
@@ -54,24 +54,24 @@ router.get("/user/cms", auth, async (req, res) => {
 // router.get("/user/page2", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/page2.html")));
 // router.get("/user/profile", auth, (req, res) => res.sendFile(path.join(__dirname, "../public/profile.html")));
 
-  
-  module.exports = function(app) {
 
-  // Each of the below routes just handles the HTML page that the user gets sent to.
+module.exports = function (app) {
 
-  // index route loads view.html
-  app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/blog.html"));
-  });
+    // Each of the below routes just handles the HTML page that the user gets sent to.
 
-  app.get("/cms", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/cms.html"));
-  });
+    // index route loads view.html
+    app.get("/", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/blog.html"));
+    });
 
-  // blog route loads blog.html
-  app.get("/blog", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/blog.html"));
-  });
+    app.get("/cms", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/cms.html"));
+    });
+
+    // blog route loads blog.html
+    app.get("/blog", function (req, res) {
+        res.sendFile(path.join(__dirname, "../public/blog.html"));
+    });
 
 };
 // // login and register forms view
