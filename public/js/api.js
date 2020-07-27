@@ -44,16 +44,16 @@ $(function () {
     $.get("/api/resources/" + stateValue, function (data) {
       // render data on page 
       console.log(data);
-        let trEl = $("<tr>");
-        let thEl = $("<th scope='row'>"+data.state+"</th>");  
-        let posTd = $("<td>"+data.positive+"</td>");
-        let negTd = $("<td>"+data.negative+"</td>");
-        let hospEl = $("<td>"+data.hospitalizedCurrently+"</td>");
-        let ventEl = $("<td>"+data.onVentilatorCurrently+"</td>");
-        let recEl = $("<td>"+data.recovered+"</td>");
-        let deathEl = $("<td>"+data.death+"</td>");
-        let endTr = $("</tr>");
-        $(".table-body").append(trEl, thEl, posTd, negTd, hospEl, ventEl, recEl, deathEl, endTr);
+      let trEl = $("<tr>");
+      let thEl = $("<th scope='row'>"+data.state+"</th>");  
+      let posTd = $("<td>"+data.positive+"</td>");
+      let negTd = $("<td>"+data.negative+"</td>");
+      let hospEl = $("<td>"+data.hospitalizedCurrently+"</td>");
+      let ventEl = $("<td>"+data.onVentilatorCurrently+"</td>");
+      let recEl = $("<td>"+data.recovered+"</td>");
+      let deathEl = $("<td>"+data.death+"</td>");
+      let endTr = $("</tr>");
+      $(".table-body").append(trEl, thEl, posTd, negTd, hospEl, ventEl, recEl, deathEl, endTr);
     })
   })
 });
