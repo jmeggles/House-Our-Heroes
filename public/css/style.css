@@ -1,34 +1,134 @@
-/* #dash-image {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/assets/images/gloved-hand.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}  */
 
-
-.container{
-    margin-top: 20px;
-    
+div{
+  font-family: 'Bebas Neue', cursive;
 }
-#carousel-img1, #carousel-img2, #carousel-img3{
+
+label{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+
+/* //House our Heroes Logo */
+#nav-logo{
+  color: blue;
+font-family: 'Bebas Neue', cursive;
+font-size: 35px;
+}
+
+/* //individual link buttons */
+.nav-link {
+  font-family: 'Bebas Neue', cursive;
+  color: blue;
+  font-size: 20px;
+}
+/* //individual link buttons on hover interaction*/
+.nav-link:hover{
+  color:white;
+  background-color:rgba(12, 94, 141, 0.507);
+}
+
+/* //full navbar background */
+div.row.bg-custom{
+  background-color: #63CDF6;
+  border-style: groove;
+  border-color: black;
+  border-radius: 10px;
+
+}
+
+/* //globe image */
+#carousel-img2{
+  height: 100% ;
+ float: right;
+}
+
+/* //carousel on dashboard full spanning images  */
+#carousel-img1, #carousel-img3{
     height: 600px;
     width: 100%;
 }
 
-#caption1 {
+/* all carousel captions */
+.caption {
+  color:  blue;
+  background-color: rgba(43, 230, 255, 0.521);
+ font-size: 20px;
+ font-family: 'Bebas Neue', cursive;
+ letter-spacing: 2px;
+ border-style: groove;
+  border-color: black;
+  border-radius: 10px;
+}
+/* on hover of captions interaction */
+.caption:hover{
+  background-color: rgba(12, 94, 141, 0.651);
   color: white;
 }
 
-#caption2 {
-  color: #b22222
+/* //jumbotron for news resources and petitions */
+.jumbotron{
+  background-color: #0000ff52;
+  border-radius: 20px;
+  min-width: 585px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
 }
 
-#caption3 {
-  color: grey;
+/* -------------BLOG------------- */
+/* blog new post button */
+.btn{
+  background-color: rgba(255, 255, 255, 0.589);
+  color: blue;
+  border-radius: 10px;
+  letter-spacing: .5px;
+  border-color: black;
+  font-family: 'Bebas Neue', cursive;
+
 }
+
+/* blog new post button on hover*/
+.btn:hover{
+  background-color: #63CDF6;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+}
+
+/* new posted comment title */
+div.card-header{
+  background-color: rgba(99, 204, 246, 0.623);
+  color: blue;
+  font-family: 'Bebas Neue', cursive;
+}
+/* new posted comment text body*/
+div.card-body{
+box-shadow: black;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+/* //blog edit button */
+button.edit.btn{
+  margin-left: 20px;
+}
+
+
+a{
+  color: #63CDF6;
+}
+
+a:hover{
+  color: white
+}
+
+
+
+
 
 button.submit {
   float: right;
@@ -50,6 +150,12 @@ form#cms {
 
   box-sizing: border-box;
 }
+
+
+
+
+
+
 /* Set additional styling options for the columns*/
 .column {
 float: left;
@@ -60,6 +166,11 @@ width: 50%;
 content: "";
 display: table;
 clear: both;
+}
+
+
+#card1,#card2, #card3, #card4 {
+  padding-bottom: 5%;
 }
 
 #data-container {
@@ -79,8 +190,25 @@ clear: both;
   margin: 5px;
  }
  .result>div:nth-child(even){
+
   background-color:#63ccf69a;
   margin: 5px;
   color:  black;;
+
+  
  }
 
+ .col-lg-6-static {
+   float: right;
+ }
+.col-lg-6-live{
+ 
+ float: left;
+ margin-top: 20px;
+ width: 500px;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+}

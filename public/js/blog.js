@@ -109,7 +109,7 @@ $(document).ready(function() {
       .parent()
       .parent()
       .data("post");
-    window.location.href = "/user/cms?post_id=" + currentPost.id;
+    window.location.href = "/cms?post_id=" + currentPost.id;
   }
 
   // This function displays a message when there are no posts
@@ -117,7 +117,7 @@ $(document).ready(function() {
     blogContainer.empty();
     var messageH2 = $("<h2>");
     messageH2.css({ "text-align": "center", "margin-top": "50px" });
-    messageH2.html("No posts yet for this category, navigate <a href='/cms'>here</a> in order to create a new post.");
+    messageH2.html("No posts yet for this category, navigate <a href='/user/cms'>here</a> in order to create a new post.");
     blogContainer.append(messageH2);
   }
 
