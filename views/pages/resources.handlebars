@@ -78,6 +78,54 @@
             <button id="dataBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
+
+      <button type="submit" class="btn btn-outline-success my-2 my-sm-0" id="tableBtn">Submit</button>
+    </form>
+    {{!-- {{main/data-block}} --}}
+    <table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Positive Tests</th>
+            <th scope="col">Negative Tests</th>
+            <th scope="col">Currently Hospitalized</th>
+            <th scope="col">Currently on Ventilator</th>
+            <th scope="col">Recovered</th>
+            <th scope="col">Deaths</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">{{date}}</th>
+            <td>{{positive}}</td>
+            <td>{{negative}}</td>
+            <td>{{hospitalizedCurrently}}</td>
+            <td>{{onVentilatorCurrently}}</td>
+            <td>{{recovered}}</td>
+            <td>{{death}}</td>
+        </tr>
+        <tr>
+            <th scope="row">{{date}}</th>
+            <td>{{positive}}</td>
+            <td>{{negative}}</td>
+            <td>{{hospitalizedCurrently}}</td>
+            <td>{{onVentilatorCurrently}}</td>
+            <td>{{recovered}}</td>
+            <td>{{death}}</td>
+        </tr>
+        <tr>
+            <th scope="row">{{date}}</th>
+            <td>{{positive}}</td>
+            <td>{{negative}}</td>
+            <td>{{hospitalizedCurrently}}</td>
+            <td>{{onVentilatorCurrently}}</td>
+            <td>{{recovered}}</td>
+            <td>{{death}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
     </div>
   </div>
   <div class="row" id="main-container">
@@ -85,6 +133,7 @@
 
 
     
+
 
 
 
