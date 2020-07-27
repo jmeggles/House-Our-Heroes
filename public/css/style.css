@@ -10,7 +10,7 @@
 
 /* //body background */
 body{
-background-color:rgb(12, 94, 141);
+background-image: hre;
 }
 
 /* //navbar styling */
@@ -71,6 +71,7 @@ div.row.bg-custom{
   color: white;
 }
 
+/* //jumbotron for news resources and petitions */
 .jumbotron{
   background-color: #0000ff52;
   border-radius: 20px;
@@ -81,12 +82,49 @@ div.row.bg-custom{
   
 }
 
+/* -------------BLOG------------- */
+/* blog new post button */
+.btn.post{
+  background-color: rgba(255, 255, 255, 0.589);
+  color: blue;
+  border-radius: 10px;
+}
 
+/* blog new post button on hover*/
+.btn.post:hover{
+  background-color: #63CDF6;
+}
 
+/* new posted comment title */
+div.card-header{
+  background-color: rgba(99, 204, 246, 0.623);
+  color: blue;
+}
+/* new posted comment text body*/
+div.card-body{
+  background-color: rgba(255, 255, 255, 0.575);
+  color: blue;
+}
 
-
-
-
+/* //blog delete button  */
+button.delete.btn{
+  background-color: rgba(255, 255, 255, 0.712);
+  color: blue;
+}
+/* //blog delete button on hover */
+button.delete.btn:hover{
+  border-style: groove;
+  border-color: blue;
+}
+/* //blog edit button */
+button.edit.btn{
+  margin-left: 20px;
+}
+/* //blog edit button on hover */
+button.edit.btn:hover{
+  border-style: groove;
+  border-color: blue;
+}
 
 
 button.submit {
