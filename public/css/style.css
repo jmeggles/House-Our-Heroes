@@ -62,3 +62,7 @@ display: table;
 clear: both;
 }
 
+#card1,#card2, #card3, #card4 {
+  padding-bottom: 5%;
+}
+
