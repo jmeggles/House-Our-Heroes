@@ -29,7 +29,7 @@ $(function () {
               
                 // append this new child container to the parent container
                 $(".result").prepend(newDiv)
-                $(".animated").addClass(".fadeInUp")
+                
               
               }
             // console.log(title)
