@@ -62,6 +62,11 @@ display: table;
 clear: both;
 }
 
+
+#card1,#card2, #card3, #card4 {
+  padding-bottom: 5%;
+}
+
 #data-container {
   
   float: right;
@@ -79,4 +84,5 @@ clear: both;
  .result>div:nth-child(even){
   background-color:rgb(43, 136, 93);
  }
+
 
