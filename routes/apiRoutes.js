@@ -82,4 +82,16 @@ app.put("/posts", function (req, res) {
     });
 });
 
+app.get("/resources/:state", function (req, res) {
+  console.log(req.params.state);
+  db.Stat.findOne({
+    where: {
+      state: req.params.state
+    }
+  })
+    .then(function (dbResults) {
+      console.log(dbResults);
+      res.json(dbResults);
+    });
+});
 module.exports = app;
