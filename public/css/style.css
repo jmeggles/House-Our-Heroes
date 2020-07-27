@@ -174,21 +174,28 @@ clear: both;
 }
 
 #data-container {
+  float: center;
   
-  float: right;
+  
 }
 #bill-container {
-  background-color: rgb(77, 102, 131);
+  background-color: transparent;
   padding: 5px;
-  float: left;
+  float: center;
   background-color: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .result>div:nth-child(odd){
   background-color:rgb(46, 72, 100);;
+  margin: 5px;
  }
  .result>div:nth-child(even){
-  background-color:blue;
+
+  background-color:#63ccf69a;
+  margin: 5px;
+  color:  black;;
+
+  
  }
 
  .col-lg-6-static {
