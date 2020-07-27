@@ -7,7 +7,9 @@
     align-items: center;
     z-index: 1;
 }  */
-
+div{
+  font-family: 'Bebas Neue', cursive;
+}
 /* //navbar styling */
 
 /* //House our Heroes Logo */
@@ -86,6 +88,7 @@ div.row.bg-custom{
   border-radius: 10px;
   letter-spacing: .5px;
   border-color: black;
+  font-family: 'Bebas Neue', cursive;
 
 }
 
