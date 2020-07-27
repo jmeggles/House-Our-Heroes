@@ -80,15 +80,18 @@ div.row.bg-custom{
 
 /* -------------BLOG------------- */
 /* blog new post button */
-.btn.post{
+.btn{
   background-color: rgba(255, 255, 255, 0.589);
   color: blue;
   border-radius: 10px;
 }
 
 /* blog new post button on hover*/
-.btn.post:hover{
+.btn:hover{
   background-color: #63CDF6;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
 }
 
 /* new posted comment title */
@@ -192,7 +195,7 @@ clear: both;
   background-color:rgb(46, 72, 100);;
  }
  .result>div:nth-child(even){
-  background-color:rgb(43, 136, 93);
+  background-color:blue;
  }
 
  .col-lg-6-static {
