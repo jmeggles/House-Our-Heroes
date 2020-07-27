@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable linebreak-style */
 /* eslint-disable quotes */
 //Prorepublica bill search for coronavirus
 $(function billsearch() {
@@ -21,7 +23,7 @@ $(function billsearch() {
       headers: { 'X-API-Key': 'D4baiyH8PfzjJXFGBVMa5eWkcf6CtQwOIexmhBkm' }
     }).then(function (response) {
 
-      console.log(response)
+      console.log(response);
 
       // const billArray = []
       for (var i = 0; i < response.results[0].bills.length; i++) {
