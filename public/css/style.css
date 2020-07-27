@@ -80,47 +80,44 @@ div.row.bg-custom{
 
 /* -------------BLOG------------- */
 /* blog new post button */
-.btn.post{
+.btn{
   background-color: rgba(255, 255, 255, 0.589);
   color: blue;
   border-radius: 10px;
+  letter-spacing: .5px;
+  border-color: black;
+
 }
 
 /* blog new post button on hover*/
-.btn.post:hover{
+.btn:hover{
   background-color: #63CDF6;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
 }
 
 /* new posted comment title */
 div.card-header{
   background-color: rgba(99, 204, 246, 0.623);
   color: blue;
+  font-family: 'Bebas Neue', cursive;
 }
 /* new posted comment text body*/
 div.card-body{
-  background-color: rgba(255, 255, 255, 0.575);
-  color: blue;
+box-shadow: black;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 
-/* //blog delete button  */
-button.delete.btn{
-  background-color: rgba(255, 255, 255, 0.712);
-  color: blue;
-}
-/* //blog delete button on hover */
-button.delete.btn:hover{
-  border-style: groove;
-  border-color: blue;
-}
 /* //blog edit button */
 button.edit.btn{
   margin-left: 20px;
 }
-/* //blog edit button on hover */
-button.edit.btn:hover{
-  border-style: groove;
-  border-color: blue;
-}
+
 
 a{
   color: #63CDF6;
@@ -192,7 +189,7 @@ clear: both;
   background-color:rgb(46, 72, 100);;
  }
  .result>div:nth-child(even){
-  background-color:rgb(43, 136, 93);
+  background-color:blue;
  }
 
  .col-lg-6-static {
