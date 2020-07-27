@@ -35,6 +35,7 @@ div.row.bg-custom{
   border-style: groove;
   border-color: black;
   border-radius: 10px;
+
 }
 
 /* //globe image */
@@ -74,7 +75,7 @@ div.row.bg-custom{
   margin: 10px auto;
   display: flex;
   justify-content: center;
-  
+  box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
 }
 
 /* -------------BLOG------------- */
@@ -205,4 +206,6 @@ clear: both;
  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
 }
 
-
+.card {
+  box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+}
