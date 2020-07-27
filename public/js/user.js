@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const userName = document.querySelector(".userName");
 // used handlebars to route user directly.  none of this is needed from usingreq.body.email and req.body.password. used and action form in login.handlebars.
 

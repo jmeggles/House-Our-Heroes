@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const router = require("express").Router();
 const bcrypt = require("bcryptjs");
 const db = require("../models");
@@ -59,7 +60,6 @@ router.post("/register", async (req, res) => {
       res.status(500).json({ message: "Internal Error" });
     }
   }
-
 });
 
 // Route: /auth/register

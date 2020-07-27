@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-
 module.exports = function (sequelize, DataTypes) {
   var Stat = sequelize.define("Stat", {
     date: {

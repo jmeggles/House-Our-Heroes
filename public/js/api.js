@@ -1,8 +1,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable quotes */
 //Prorepublica bill search for coronavirus
-
-
 $(function billsearch() {
   $("#reset").hide();
   // eslint-disable-next-line linebreak-style
@@ -16,8 +14,6 @@ $(function billsearch() {
     var billSearch = $("#billSearch").val();
     console.log(billSearch);
 
-
-
     //call to api.
     $.ajax({
       url: "https://api.propublica.org/congress/v1/bills/search.json?query=" + billSearch,
@@ -26,8 +22,6 @@ $(function billsearch() {
     }).then(function (response) {
 
       console.log(response)
-
-
 
       // const billArray = []
       for (var i = 0; i < response.results[0].bills.length; i++) {
@@ -45,7 +39,6 @@ $(function billsearch() {
         $(".result").prepend(newDiv);
       }
       // console.log(title)
-  
     });
   });
 
