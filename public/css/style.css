@@ -1,16 +1,12 @@
-/* #dash-image {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/assets/images/gloved-hand.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}  */
+
 div{
   font-family: 'Bebas Neue', cursive;
 }
-/* //navbar styling */
+
+label{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
 
 /* //House our Heroes Logo */
 #nav-logo{
