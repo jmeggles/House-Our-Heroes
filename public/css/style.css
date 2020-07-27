@@ -85,6 +85,8 @@ div.row.bg-custom{
   color: blue;
   border-radius: 10px;
   letter-spacing: .5px;
+  border-color: black;
+
 }
 
 /* blog new post button on hover*/
