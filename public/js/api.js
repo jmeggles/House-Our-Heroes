@@ -10,7 +10,7 @@ $(function billsearch() {
     $("#reset").hide();
     // eslint-disable-next-line indent
     // eslint-disable-next-line linebreak-style
-    $("#billBtn").on("click", function (event) {
+    $("#billBtn").on("click", function(event) {
         event.preventDefault();
         $("#data-container").hide();
         $("#billBtn").hide();
@@ -26,7 +26,7 @@ $(function billsearch() {
             url: "https://api.propublica.org/congress/v1/bills/search.json?query=" + billSearch,
             dataType: "json",
             headers: { 'X-API-Key': 'D4baiyH8PfzjJXFGBVMa5eWkcf6CtQwOIexmhBkm' }
-        }).then(function (response) {
+        }).then(function(response) {
 
             console.log(response);
             for (var i = 0; i < 10; i++) {
@@ -63,7 +63,7 @@ $(function datasearch() {
         var stateValue = stateEl.options[stateEl.selectedIndex].value;
         console.log(stateValue);
         // route sending in to state db
-        $.get("/api/resources/" + stateValue, function (data) {
+        $.get("/api/resources/" + stateValue, function(data) {
             // render data on page
             console.log(data);
             let trEl = $("<tr>");
