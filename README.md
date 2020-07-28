@@ -1,5 +1,5 @@
   # Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) ![TravisCi build](https://travis-ci.org/jmeggles/House-Our-Heroes.svg?branch=master)
- House Our Heroes
+  House Our Heroes
 
   ## Overview 
   This project is a central site to make people aware of the lack of housing for first responders and healthcare workers who travel for work or need to be away from their families in fear of spreading the disease. This will be informative, inviting, and easy to navigate. It will showcase current case numbers along with places to find resources for additional information and petitions. This is an ongoing project to help protect those who protect us.
@@ -21,7 +21,7 @@
   - [GitHub Repo](https://github.com/jmeggles/House-Our-Heroes)
 
  ## Screenshots_and_GIFs 
-  - ![Short vid of deployed project](https://media.giphy.com/media)
+  - ![Short vid of deployed project](https://media.giphy.com/media/WUapatJRoDFtlrZbgI/giphy.gif)
   - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
@@ -55,7 +55,7 @@
   - Derek D'Esposito *[GitHub](https://github.com/Derekdespo)
 
   ## Tests
-  - No testing was done prior to the development of this project.  However, we used console.log along the way along with eslint and Travis Ci to confirm all code was built properly.  
+  - No testing was done prior to the development of this project.  However, we used console.log and nodemon along the way along with eslint and Travis Ci to confirm all code was built properly.  
 
   ## Contribute
   Commit or comment to the project in github.
