@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const router = require("express").Router();
 const bcrypt = require("bcryptjs");
 const db = require("../models");
@@ -59,7 +60,6 @@ router.post("/register", async (req, res) => {
       res.status(500).json({ message: "Internal Error" });
     }
   }
-
 });
 
 // Route: /auth/register
@@ -69,7 +69,7 @@ router.post("/login", (req, res, next) => {
 
   // check if there are any empty fields
   if (email === "" || password === "") {
-    return res.redirect("/login?message=Please%20fill%20all%20fields")
+    return res.redirect("/login?message=Please%20fill%20all%20fields");
     // return res.status(400).json({ message: "Please fill all fields" });
   }
   // passport Authentication using the "Local strategy" inside the "config" folder config/passport.js."
@@ -80,7 +80,7 @@ router.post("/login", (req, res, next) => {
     }
     // if can't find email, or if password is incorrect, send error message (info)
     if (!user) {
-      return res.redirect("/login?message=Email%20incorrect")
+      return res.redirect("/login?message=Email%20incorrect");
       // res.status(404).json(info);
     }
     // Log user

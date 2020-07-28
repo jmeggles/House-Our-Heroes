@@ -1,3 +1,6 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-use-before-define */
+/* eslint-disable linebreak-style */
 $(document).ready(function() {
   // blogContainer holds all of our posts
   var blogContainer = $(".blog-container");
@@ -19,8 +22,7 @@ $(document).ready(function() {
       posts = data;
       if (!posts || !posts.length) {
         displayEmpty();
-      }
-      else {
+      } else {
         initializeRows();
       }
     });
@@ -32,7 +34,7 @@ $(document).ready(function() {
       method: "DELETE",
       url: "/api/posts/" + id
     })
-      .then(function() {
+      .then(function () {
         getPosts(postCategorySelect.val());
       });
   }
@@ -70,7 +72,7 @@ $(document).ready(function() {
       float: "right",
       "font-weight": "700",
       "margin-top":
-      "-15px"
+        "-15px"
     });
     var newPostCardBody = $("<div>");
     newPostCardBody.addClass("card-body");
@@ -126,5 +128,4 @@ $(document).ready(function() {
     var newPostCategory = $(this).val();
     getPosts(newPostCategory);
   }
-
 });

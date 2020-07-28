@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-trailing-spaces */
+
 /* eslint-disable indent */
+
 /* eslint-disable linebreak-style */
 /* eslint-disable quotes */
 //Prorepublica bill search for coronavirus
-
-
 $(function billsearch() {
     $("#reset").hide();
     // eslint-disable-next-line indent
@@ -41,6 +41,7 @@ $(function billsearch() {
             }
           
         });
+
     });
 });
 

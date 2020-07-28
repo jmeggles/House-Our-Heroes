@@ -1,4 +1,3 @@
-
 div{
   font-family: 'Bebas Neue', cursive;
 }
@@ -36,14 +35,8 @@ div.row.bg-custom{
 
 }
 
-/* //globe image */
-#carousel-img2{
-  height: 100% ;
- float: right;
-}
-
 /* //carousel on dashboard full spanning images  */
-#carousel-img1, #carousel-img3{
+#carousel-img1, #carousel-img2, #carousel-img3{
     height: 600px;
     width: 100%;
 }
@@ -117,7 +110,6 @@ button.edit.btn{
   margin-left: 20px;
 }
 
-
 a{
   color: #63CDF6;
 }
@@ -125,10 +117,6 @@ a{
 a:hover{
   color: white
 }
-
-
-
-
 
 button.submit {
   float: right;
@@ -145,15 +133,8 @@ form#cms {
 .card-header button.delete, button.edit {
   float: right;
   margin: 5px;
-
-
-
   box-sizing: border-box;
 }
-
-
-
-
 
 
 /* Set additional styling options for the columns*/
@@ -168,16 +149,14 @@ display: table;
 clear: both;
 }
 
-
 #card1,#card2, #card3, #card4 {
   padding-bottom: 5%;
 }
 
 #data-container {
   align-content: right;
-  
-  
 }
+
 #bill-container {
   background-color: transparent;
   padding: 5px;
@@ -193,22 +172,21 @@ clear: both;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
  }
- .result>div:nth-child(even){
 
+.result>div:nth-child(even){
   background-color:#63ccf69a;
   margin: 10px;
   color:  black;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
+}
 
-  
- }
 
- .col-lg-6-static {
+.col-lg-6-static {
    float: right;
- }
+}
+
 .col-lg-6-live{
- 
  float: left;
  margin-top: 20px;
  width: 500px;
@@ -217,6 +195,7 @@ clear: both;
 
 .card {
   box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+
 }
 .new-container{
   margin: 20px
@@ -231,3 +210,4 @@ iframe{
   align-items: right
   ;
 } */
+

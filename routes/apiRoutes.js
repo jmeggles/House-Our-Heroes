@@ -11,8 +11,6 @@ var db = require("../models");
 
 // Routes
 // =============================================================
-
-
 // GET route for getting all of the posts
 app.get("/posts/", function (req, res) {
   db.Post.findAll({})
