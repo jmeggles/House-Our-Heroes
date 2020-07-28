@@ -92,8 +92,10 @@ div.row.bg-custom{
 /* new posted comment title */
 div.card-header{
   background-color: rgba(99, 204, 246, 0.623);
-  color: blue;
+  color: white;
   font-family: 'Bebas Neue', cursive;
+  text-shadow: 1.5px 1.5px blue;
+  
 }
 /* new posted comment text body*/
 div.card-body{
@@ -239,5 +241,5 @@ clear: both;
 
  #byState{
    margin-right: 15px;
-   
+
  }
