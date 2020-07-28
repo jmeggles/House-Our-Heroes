@@ -211,3 +211,33 @@ iframe{
   ;
 } */
 
+#data-reset{
+  background-color: rgba(255, 255, 255, 0.589);
+  color: blue;
+  border-radius: 10px;
+  letter-spacing: .5px;
+  border-color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#data-reset:hover{
+  background-color: #63CDF6;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+}
+
+
+ #billBtn{
+   float: left;
+ }
+
+ #billSearch{
+clear: both;
+ }
+ 
+
+ #byState{
+   margin-right: 15px;
+   
+ }
