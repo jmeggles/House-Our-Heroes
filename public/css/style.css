@@ -12,6 +12,7 @@ label{
   color: blue;
 font-family: 'Bebas Neue', cursive;
 font-size: 35px;
+text-shadow: 1.5px 1.5px #ffffff;
 }
 
 /* //individual link buttons */
@@ -19,11 +20,13 @@ font-size: 35px;
   font-family: 'Bebas Neue', cursive;
   color: blue;
   font-size: 20px;
+  text-shadow: 1.5px 1.5px #ffffff;
 }
 /* //individual link buttons on hover interaction*/
 .nav-link:hover{
   color:white;
   background-color:rgba(12, 94, 141, 0.507);
+  text-shadow: 1.5px 1.5px #000000;
 }
 
 /* //full navbar background */
@@ -85,7 +88,7 @@ float: right;
   letter-spacing: .5px;
   border-color: black;
   font-family: 'Bebas Neue', cursive;
-
+  box-shadow: rgba(0, 0, 0, 0.55) 1px 4px 10px 1px;
 }
 
 /* blog new post button on hover*/
