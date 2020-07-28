@@ -1,33 +1,29 @@
+/* eslint-disable indent */
 /* eslint-disable no-multi-spaces */
 /* eslint-disable linebreak-style */
 require("dotenv").config();
 // file to config MySQL database using Sequelize. we are using a .env file to pass the credentials.
-if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL);
-}  else {
+module.exports = {
 
-  module.exports = {
+  development: {
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    host: process.env.DB_HOST,
+    dialect: "mysql",
+    operatorsAliases: 0
+  },
+  test: {
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    host: process.env.DB_HOST,
+    dialect: "mysql",
+    operatorsAliases: 0
 
-    development: {
-      username: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_DATABASE,
-      host: process.env.DB_HOST,
-      dialect: "mysql",
-      operatorsAliases: 0
-    },
-    test: {
-      username: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_DATABASE,
-      host: process.env.DB_HOST,
-      dialect: "mysql",
-      operatorsAliases: 0
-
-    },
-    production: {
-      use_env_variable: "JAWSDB_URL",
-      dialect: "mysql"
-    }
-  };
-}
+  },
+  production: {
+    use_env_variable: "JAWSDB_URL",
+    dialect: "mysql"
+  }
+};
