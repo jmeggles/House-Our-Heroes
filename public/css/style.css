@@ -1,4 +1,3 @@
-
 div{
   font-family: 'Bebas Neue', cursive;
 }
@@ -111,7 +110,6 @@ button.edit.btn{
   margin-left: 20px;
 }
 
-
 a{
   color: #63CDF6;
 }
@@ -119,10 +117,6 @@ a{
 a:hover{
   color: white
 }
-
-
-
-
 
 button.submit {
   float: right;
@@ -139,15 +133,8 @@ form#cms {
 .card-header button.delete, button.edit {
   float: right;
   margin: 5px;
-
-
-
   box-sizing: border-box;
 }
-
-
-
-
 
 
 /* Set additional styling options for the columns*/
@@ -162,16 +149,14 @@ display: table;
 clear: both;
 }
 
-
 #card1,#card2, #card3, #card4 {
   padding-bottom: 5%;
 }
 
 #data-container {
   float: center;
-  
-  
 }
+
 #bill-container {
   background-color: transparent;
   padding: 5px;
@@ -179,24 +164,24 @@ clear: both;
   background-color: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .result>div:nth-child(odd){
   background-color:rgb(46, 72, 100);;
   margin: 5px;
  }
- .result>div:nth-child(even){
+
+.result>div:nth-child(even){
 
   background-color:#63ccf69a;
   margin: 5px;
   color:  black;;
+}
 
-  
- }
-
- .col-lg-6-static {
+.col-lg-6-static {
    float: right;
- }
+}
+
 .col-lg-6-live{
- 
  float: left;
  margin-top: 20px;
  width: 500px;

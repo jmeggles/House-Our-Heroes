@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // *********************************************************************************
 // api-routes.js - this file offers a set of routes for displaying and saving data to the db
 // *********************************************************************************
@@ -10,8 +11,6 @@ var db = require("../models");
 
 // Routes
 // =============================================================
-
-
 // GET route for getting all of the posts
 app.get("/posts/", function (req, res) {
   db.Post.findAll({})

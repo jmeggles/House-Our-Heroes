@@ -1,3 +1,6 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-use-before-define */
+/* eslint-disable linebreak-style */
 $(document).ready(function() {
   // Gets an optional query string from our url (i.e. ?post_id=23)
   var url = window.location.search;
@@ -40,8 +43,7 @@ $(document).ready(function() {
     if (updating) {
       newPost.id = postId;
       updatePost(newPost);
-    }
-    else {
+    } else {
       submitPost(newPost);
     }
   });
