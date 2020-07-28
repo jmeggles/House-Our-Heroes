@@ -12,6 +12,7 @@ label{
   color: blue;
 font-family: 'Bebas Neue', cursive;
 font-size: 35px;
+text-shadow: 1.5px 1.5px #ffffff;
 }
 
 /* //individual link buttons */
@@ -19,6 +20,7 @@ font-size: 35px;
   font-family: 'Bebas Neue', cursive;
   color: blue;
   font-size: 20px;
+  text-shadow: 1.5px 1.5px #ffffff;
 }
 /* //individual link buttons on hover interaction*/
 .nav-link:hover{
@@ -67,6 +69,7 @@ div.row.bg-custom{
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+  text-shadow: 2.5px 2.5px #5ac2ffbd;
 }
 
 /* -------------BLOG------------- */
