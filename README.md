@@ -22,10 +22,10 @@
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed project](https://media.giphy.com/media/WUapatJRoDFtlrZbgI/giphy.gif)
-  - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot2.png)
-  - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot4.png)
+  - ![Screenshot of deployed project](public/assets/images/screenshot1.png) 
+  - ![Screenshot of deployed project](public/assets/images/screenshot2.png)
+  - ![Screenshot of deployed project](public/images/screenshot3.png)  
+  - ![Screenshot of deployed project](public/assets/images/screenshot4.png)
   
   ## Motivation
   This project is to inform people of the first responders and healthcare works being denied housing because of the Flroida law freezing all rentals during the pandemic.  We are showing the importance in allowing first responders and healthcare workers to rent properties to protect their families and server others if out of town.  
