@@ -7,10 +7,10 @@
 </div>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-2" id="billSearch">
+    <h2>Search for Laws in congress</h2>
+    <div class="col-lg-3" id="billSearch">
       <form class="form-inline">
-        <h2>Search for Laws in congress</h2>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <input id="moveit" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button id="billBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         <button id="reset">Reset</button>
       </form>
@@ -18,8 +18,8 @@
     <div class="searchResults" id="fullBill-container" class="col-lg-12">
       <div class="result"></div>
     </div>
-  <div class="col-lg-12" id="data-container">
-    <h2>Covid-19 Data by State</h2>
+  <div class="col-lg-12 form-inline" id="data-container">
+    <h2 id="byState" >Covid-19 Data by State</h2>
     <form>
       <div class="form-inline">
         <select class="form-control" id="state-selection">
