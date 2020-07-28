@@ -12,6 +12,7 @@ label{
   color: blue;
 font-family: 'Bebas Neue', cursive;
 font-size: 35px;
+text-shadow: 1.5px 1.5px #ffffff;
 }
 
 /* //individual link buttons */
@@ -19,11 +20,13 @@ font-size: 35px;
   font-family: 'Bebas Neue', cursive;
   color: blue;
   font-size: 20px;
+  text-shadow: 1.5px 1.5px #ffffff;
 }
 /* //individual link buttons on hover interaction*/
 .nav-link:hover{
   color:white;
   background-color:rgba(12, 94, 141, 0.507);
+  text-shadow: 1.5px 1.5px #000000;
 }
 
 /* //full navbar background */
@@ -36,10 +39,16 @@ div.row.bg-custom{
 }
 
 /* //carousel on dashboard full spanning images  */
-#carousel-img1, #carousel-img2, #carousel-img3{
+#carousel-img1, #carousel-img3{
     height: 600px;
     width: 100%;
 }
+
+#carousel-img2{
+max-height: 500px;
+float: right;
+}
+
 
 /* all carousel captions */
 .caption {
@@ -67,6 +76,7 @@ div.row.bg-custom{
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+  margin-bottom: 40px;
 }
 
 /* -------------BLOG------------- */
@@ -78,7 +88,7 @@ div.row.bg-custom{
   letter-spacing: .5px;
   border-color: black;
   font-family: 'Bebas Neue', cursive;
-
+  box-shadow: rgba(0, 0, 0, 0.55) 1px 4px 10px 1px;
 }
 
 /* blog new post button on hover*/
@@ -87,13 +97,34 @@ div.row.bg-custom{
   border-style: groove;
   border-width: 2px;
   border-color: black;
+ 
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
 }
 
 /* new posted comment title */
 div.card-header{
   background-color: rgba(99, 204, 246, 0.623);
-  color: blue;
+  color: white;
   font-family: 'Bebas Neue', cursive;
+  text-shadow: 1.5px 1.5px blue;
+  
 }
 /* new posted comment text body*/
 div.card-body{
@@ -154,28 +185,33 @@ clear: both;
 }
 
 #data-container {
-  float: center;
+  align-content: right;
 }
 
 #bill-container {
   background-color: transparent;
   padding: 5px;
   float: center;
-  background-color: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
 }
 
 .result>div:nth-child(odd){
   background-color:rgb(46, 72, 100);;
-  margin: 5px;
+  margin: 10px;
+  
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
  }
 
 .result>div:nth-child(even){
-
   background-color:#63ccf69a;
-  margin: 5px;
-  color:  black;;
+  margin: 10px;
+  color:  black;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .col-lg-6-static {
    float: right;
@@ -190,4 +226,58 @@ clear: both;
 
 .card {
   box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+
 }
+.new-container{
+  margin: 20px
+}
+iframe{
+  float: right;
+}
+/* #billSearch{
+  float: left;
+}
+#data-container {
+  align-items: right
+  ;
+} */
+
+#data-reset{
+  background-color: rgba(255, 255, 255, 0.589);
+  color: blue;
+  border-radius: 10px;
+  letter-spacing: .5px;
+  border-color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#data-reset:hover{
+  background-color: #63CDF6;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+}
+
+#dataBtn{
+  margin-left: 10px;
+}
+
+ #billBtn{
+   float: left;
+ }
+
+ #billSearch{
+clear: both;
+ }
+ 
+
+ #byState{
+   margin-right: 15px;
+
+ }
+
+ h2{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-shadow: 2px 2px black;
+ }

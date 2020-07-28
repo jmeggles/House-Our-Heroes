@@ -1,3 +1,5 @@
+/* eslint-disable indent */
+/* eslint-disable no-multi-spaces */
 /* eslint-disable linebreak-style */
 require("dotenv").config();
 // file to config MySQL database using Sequelize. we are using a .env file to pass the credentials.
