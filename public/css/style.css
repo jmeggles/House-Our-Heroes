@@ -36,10 +36,16 @@ div.row.bg-custom{
 }
 
 /* //carousel on dashboard full spanning images  */
-#carousel-img1, #carousel-img2, #carousel-img3{
+#carousel-img1, #carousel-img3{
     height: 600px;
     width: 100%;
 }
+
+#carousel-img2{
+max-height: 500px;
+float: right;
+}
+
 
 /* all carousel captions */
 .caption {
@@ -67,6 +73,7 @@ div.row.bg-custom{
   display: flex;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.55) 2px 8px 20px 2px;
+  margin-bottom: 40px;
 }
 
 /* -------------BLOG------------- */
@@ -87,6 +94,25 @@ div.row.bg-custom{
   border-style: groove;
   border-width: 2px;
   border-color: black;
+ 
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
 }
 
 /* new posted comment title */
@@ -229,6 +255,9 @@ iframe{
   border-color: black;
 }
 
+#dataBtn{
+  margin-left: 10px;
+}
 
  #billBtn{
    float: left;
@@ -242,4 +271,10 @@ clear: both;
  #byState{
    margin-right: 15px;
 
+ }
+
+ h2{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-shadow: 2px 2px black;
  }
