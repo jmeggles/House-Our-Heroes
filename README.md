@@ -14,9 +14,7 @@
   - [License](#License)
   - [Tests](#Tests)
   - [Contribute](#Contribute)
-
- ## Links
-  - [Heroku Deployed](https://house-our-heroes.herokuapp.com/)
+  - [Heroku Deployed](https://sessions-react-app.herokuapp.com/)
   - [GitHub Pages](https://jmeggles.github.io/House-Our-Heroes/)
   - [GitHub Repo](https://github.com/jmeggles/House-Our-Heroes)
 
